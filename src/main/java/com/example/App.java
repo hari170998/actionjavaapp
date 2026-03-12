@@ -1,4 +1,3 @@
-#java app
 package com.example;
 
 public class App {
