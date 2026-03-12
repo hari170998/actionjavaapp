@@ -28,7 +28,7 @@ jobs:
       # Step 3: Build and test
       - name: Build with Maven
       # adjust if pom.xml is inside a subfolder
-        run: mvn -B verify
+        run: mvn -B clean install
 
       # Step 4: SonarCloud Scan
       - name: SonarCloud Scan
