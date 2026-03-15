@@ -38,5 +38,6 @@ jobs:
             -Dsonar.projectKey=hari170998_actionjavaapp
             -Dsonar.organization=hari170998
             -Dsonar.host.url=https://sonarcloud.io
+            -Dsonar.java.binaries=target/classes
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
